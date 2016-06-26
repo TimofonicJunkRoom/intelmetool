@@ -98,7 +98,7 @@
 	( (x) == PCI_DEVICE_ID_INTEL_ICH7M	) || \
 	( (x) == PCI_DEVICE_ID_INTEL_ICH7MDH	) || \
 	( (x) == PCI_DEVICE_ID_INTEL_NM10	))
-			
+
 
 // Definitely has ME and can be disabled
 #define PCI_DEVICE_ID_INTEL_ICH8ME		0x2811
@@ -163,6 +163,7 @@
 #define PCI_DEVICE_ID_INTEL_LYNXPOINT_LP_FULL	0x9c41
 #define PCI_DEVICE_ID_INTEL_LYNXPOINT_LP_PREM	0x9c43
 #define PCI_DEVICE_ID_INTEL_LYNXPOINT_LP_BASE	0x9c45
+#define PCI_DEVICE_ID_INTEL_SUNRISEPOINT_Z170   0xa13a
 
 #define PCI_DEV_HAS_ME_DIFFICULT(x) ( \
 	( (x) == PCI_DEVICE_ID_INTEL_ICH10R ) || \
@@ -216,7 +217,8 @@
 	( (x) == PCI_DEVICE_ID_INTEL_DH89XXCC	) || \
 	( (x) == PCI_DEVICE_ID_INTEL_LYNXPOINT_LP_FULL ) || \
 	( (x) == PCI_DEVICE_ID_INTEL_LYNXPOINT_LP_PREM ) || \
-	( (x) == PCI_DEVICE_ID_INTEL_LYNXPOINT_LP_BASE ))
+	( (x) == PCI_DEVICE_ID_INTEL_LYNXPOINT_LP_BASE ) || \
+	( (x) == PCI_DEVICE_ID_INTEL_SUNRISEPOINT_Z170 ))
 
 // Not sure if ME present, but should be able to disable it easily
 #define PCI_DEVICE_ID_INTEL_ICH8		0x2810
