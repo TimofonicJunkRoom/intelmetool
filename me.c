@@ -463,16 +463,32 @@ int mkhi_get_fwcaps(void)
 	print_cap("IntelR Anti-Theft (AT)                    ", fwcaps.cap.caps_sku.intel_at);
 	print_cap("IntelR Capability Licensing Service (CLS) ",
 		  fwcaps.cap.caps_sku.intel_cls);
+	print_cap("Reserved_1                                ", fwcaps.cap.caps_sku.reserved_1);
+	print_cap("Reserved_2                                ", fwcaps.cap.caps_sku.reserved_2);
+	print_cap("Reserved_3                                ", fwcaps.cap.caps_sku.reserved_3);
 	print_cap("IntelR Power Sharing Technology (MPC)     ",
 		  fwcaps.cap.caps_sku.intel_mpc);
 	print_cap("ICC Over Clocking                         ", fwcaps.cap.caps_sku.icc_over_clocking);
         print_cap("Protected Audio Video Path (PAVP)         ", fwcaps.cap.caps_sku.pavp);
+	print_cap("Reserved_4                                ", fwcaps.cap.caps_sku.reserved_4);
+	print_cap("Reserved_5                                ", fwcaps.cap.caps_sku.reserved_5);
+	print_cap("Reserved_6                                ", fwcaps.cap.caps_sku.reserved_6);
+	print_cap("Reserved_7                                ", fwcaps.cap.caps_sku.reserved_7);
 	print_cap("IPV6                                      ", fwcaps.cap.caps_sku.ipv6);
 	print_cap("KVM Remote Control (KVM)                  ", fwcaps.cap.caps_sku.kvm);
 	print_cap("Outbreak Containment Heuristic (OCH)      ", fwcaps.cap.caps_sku.och);
 	print_cap("Virtual LAN (VLAN)                        ", fwcaps.cap.caps_sku.vlan);
 	print_cap("TLS                                       ", fwcaps.cap.caps_sku.tls);
+	print_cap("Reserved_8                                ", fwcaps.cap.caps_sku.reserved_8);
 	print_cap("Wireless LAN (WLAN)                       ", fwcaps.cap.caps_sku.wlan);
+	print_cap("Reserved_9                                ", fwcaps.cap.caps_sku.reserved_9);
+	print_cap("Reserved_10                               ", fwcaps.cap.caps_sku.reserved_10);
+	print_cap("Reserved_11                               ", fwcaps.cap.caps_sku.reserved_11);
+	print_cap("Reserved_12                               ", fwcaps.cap.caps_sku.reserved_12);
+	print_cap("Reserved_13                               ", fwcaps.cap.caps_sku.reserved_13);
+	print_cap("Reserved_14                               ", fwcaps.cap.caps_sku.reserved_14);
+	print_cap("Reserved_15                               ", fwcaps.cap.caps_sku.reserved_15);
+	print_cap("Reserved_16                               ", fwcaps.cap.caps_sku.reserved_16);
 
 	return 0;
 }

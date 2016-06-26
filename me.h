@@ -295,24 +295,36 @@ typedef struct {
 typedef struct {
 	uint32_t  full_net		: 1;
 	uint32_t  std_net		: 1;
-	uint32_t  manageability	: 1;
+	uint32_t  manageability		: 1;
 	uint32_t  small_business	: 1;
 	uint32_t  l3manageability	: 1;
 	uint32_t  intel_at		: 1;
 	uint32_t  intel_cls		: 1;
-	uint32_t  reserved		: 3;
+	uint32_t  reserved_1		: 1;
+	uint32_t  reserved_2		: 1;
+	uint32_t  reserved_3		: 1;
 	uint32_t  intel_mpc		: 1;
 	uint32_t  icc_over_clocking	: 1;
-	uint32_t  pavp		: 1;
-	uint32_t  reserved_1		: 4;
-	uint32_t  ipv6		: 1;
-	uint32_t  kvm		: 1;
-	uint32_t  och		: 1;
-	uint32_t  vlan		: 1;
-	uint32_t  tls		: 1;
+	uint32_t  pavp			: 1;
 	uint32_t  reserved_4		: 1;
-	uint32_t  wlan		: 1;
-	uint32_t  reserved_5		: 8;
+	uint32_t  reserved_5		: 1;
+	uint32_t  reserved_6		: 1;
+	uint32_t  reserved_7		: 1;
+	uint32_t  ipv6			: 1;
+	uint32_t  kvm			: 1;
+	uint32_t  och			: 1;
+	uint32_t  vlan			: 1;
+	uint32_t  tls			: 1;
+	uint32_t  reserved_8		: 1;
+	uint32_t  wlan			: 1;
+	uint32_t  reserved_9		: 1;
+	uint32_t  reserved_10		: 1;
+	uint32_t  reserved_11		: 1;
+	uint32_t  reserved_12		: 1;
+	uint32_t  reserved_13		: 1;
+	uint32_t  reserved_14		: 1;
+	uint32_t  reserved_15		: 1;
+	uint32_t  reserved_16		: 1;
 } __attribute__ ((packed)) mefwcaps_sku;
 
 typedef struct {
